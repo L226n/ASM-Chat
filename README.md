@@ -1,5 +1,5 @@
 # ✨ASM-Chat✨
-A chat protocol written entirely in 64 bit ASM, with 0 dependancies\
+A chat protocol written entirely in 64 bit ASM, with 0 dependancies
 ## Running the program
 To run this code on your computer, there are 3 options:
 - Assemble and link the [source code](main.asm)

@@ -34,4 +34,6 @@ To disconnect from your peer, **DO NOT USE CTRL+C** but instead type ```!d``` in
 When you choose server, the program will wait for someone else to connect to your computer. This means that if you wish to connect to someone elses computer, you should choose client and then input the other persons computer IP. However that other computer needs to already be hosting a server for you to be able to connect. In short, the first person to start the program should be the server, and the second should be client.
 ### Can I use this program with computers on different WiFi networks?
 This program works usually using local IP addresses, which means that you can easily communicate between computers on the same WiFi network using their local IPs. The program *does* work accross computers on different WiFi networks, but requires that you first set up port forwarding on your router which redirects traffic on port 9001 to your computer. Then when the client connects, they will instead need to use the servers **global IP** instead of their local IP. (Your global IP can be found [here](https://whatismyipaddress.com/))
+### Will this work on windows / mac?
+It will most certainly not work on windows, not sure about mac. It will also not work on 32 bit linux due to the system call tables being completely different and a slew of other problems
 # Thank you! 💖
